@@ -1,0 +1,118 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+nav ul{ 
+    background-color: rgba(255, 255, 255, 0.226);
+    border-radius: 6px;
+    padding: 20px;
+    font-size: 1.7rem;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav ul li{
+    margin: 10px;
+    background-image: linear-gradient(to right, #2590dd 0%, #2c88d4  51%, #1FA2FF  100%);
+    padding: 15px 45px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    list-style-type: none;
+    border-radius: 6px;
+    padding: 10px;
+}
+nav ul li:hover{
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+}
+a:hover{
+    color: rgb(73, 73, 73);
+}
+
+h2{
+    font-size: xx-large;
+    margin-top: 30rem;
+    margin-bottom: 100px;
+}
+.contenedor{
+    display: flex;
+}
+
+
+.contenedor div{
+    font-size: 1.5rem;
+    background-color: rgba(36, 77, 119, 0.26);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 30px 10px;
+    transition: 0.3s;
+}
+.contenedor div:hover{
+    background-color: rgba(36, 78, 119, 0.342);
+}
+/*order*/
+.item{
+    order: 2;
+    background-color: mediumspringgreen !important;
+}
+/*flex-grow*/
+.item2{
+    flex-grow: 1;
+    background-color: mediumspringgreen !important;
+}
+/*flex-shrink*/
+.item3{
+    flex-shrink: 2;
+    background-color: mediumspringgreen !important;
+}
+/*flex-direction*/
+.item4{
+    flex-direction: row-reverse;
+}
+/*flex-wrap*/
+.item5{
+    flex-wrap: wrap;
+}
+/*flex-flow*/
+.item6{
+    flex-flow: row-reverse wrap;
+}
+/*Justify content*/
+.item7{
+    justify-content: center;
+}
+/*align-self*/
+.item8{
+    background-color: mediumspringgreen !important;
+    align-self: auto;
+}
+/*align-items*/
+.tam{
+    height: 400px;
+    align-items: flex-start;
+}
+/*align-content*/
+.item9{
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+/*Gap*/
+.item10{
+    gap: 50px;
+}
+

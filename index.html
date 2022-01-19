@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Propiedades Flex</h1>
+        <nav>
+            <ul>
+                <li><a href="#Order">Order</a></li>
+                <li><a href="#Flex-Direction">Flex-Direction</a></li>
+                <li><a href="#Flex-Grow">Flex-Grow</a></li>
+                <li><a href="#Flex-Shrink">Flex-Shrink</a></li>
+                <li><a href="#Flex-Wrap">Flex-Wrap</a></li>
+                <li><a href="#Flex-Flow">Flex-Flow</a></li>
+                <li><a href="#Justify-Content">Justify-Content</a></li>
+                <li><a href="#Align-Self">Align-Self</a></li>
+                <li><a href="#Align-Items">Align-Items</a></li>
+                <li><a href="#Align-Content">Align-Content</a></li>
+                <li><a href="#Gap">Gap</a></li>
+            </ul>
+        </nav>
+        <main>
+            <!--Controlar el orden en el que los elementos aparecen-->
+            <h2 id="Order">Order</h2>
+            <div class="contenedor">
+                <div class="item">San Ignacio</div>
+                <div>Jesuitas</div>
+                <div>Fundación Loyola</div>
+                <div>José de Anchieta</div>
+            </div>
+            <a href="#">Volver</a>
+            
+            <!--Para dar un mayor tamaño a los elementos y puedan así ocupar más espacio-->
+            <h2 id="Flex-Grow">Flex-Grow</h2>
+            <div class="contenedor">
+                <div class="item2">Pedro Fabro</div>
+                <div>Gaspar Astete</div>
+                <div>Lorenzo Ricci</div>
+                <div>Francisco de Borja</div>
+            </div>
+            <a href="#">Volver</a>
+
+            <!--Reducir el tamaño de los elementos y puedan asî caber en su caja contenedora-->
+            <h2 id="Flex-Shrink">Flex-Shrink</h2>
+            <div class="contenedor">
+                <div class="item3">Fundación Loyola</div>
+                <div>Fundación Loyola</div>
+                <div>Fundación Loyola</div>
+                <div>Fundación Loyola</div>
+            </div>
+            <a href="#">Volver</a>
+
+            <!--Indicar la dirección en la que aparecen los elementos-->
+            <h2 id="Flex-Direction">Flex-Direction</h2>
+            <div class="contenedor item4">
+                <div>San Ignacio</div>
+                <div>Jesuitas</div>
+                <div>Fundación Loyola</div>
+                <div>José de Anchieta</div>
+            </div>
+            <a href="#">Volver</a>
+
+            <!--Darle la capacidad a los elementos de ocupar más de una línea si es necesario o no-->
+            <h2 id="Flex-Wrap">Flex-Wrap</h2>
+            <div class="contenedor item5">
+                <div>San Ignacio</div>
+                <div>Jesuitas</div>
+                <div>Fundación Loyola</div>
+                <div>José de Anchieta</div>
+                <div>San Ignacio</div>
+                <div>Jesuitas</div>
+                <div>Fundación Loyola</div>
+                <div>José de Anchieta</div>
+                <div>San Ignacio</div>
+                <div>Jesuitas</div>
+                <div>Fundación Loyola</div>
+                <div>José de Anchieta</div>
+            </div>
+            <a href="#">Volver</a>
+
+            <!--Une las propiedades flex-direction y flex-wrap--->
+            <h2 id="Flex-Flow">Flex-Flow</h2>
+            <div class="contenedor item6">
+                <div>San Ignacio</div>
+                <div>Jesuitas</div>
+                <div>Fundación Loyola</div>
+                <div>José de Anchieta</div>
+                <div>San Ignacio</div>
+                <div>Jesuitas</div>
+                <div>Fundación Loyola</div>
+                <div>José de Anchieta</div>
+                <div>San Ignacio</div>
+                <div>Jesuitas</div>
+                <div>Fundación Loyola</div>
+                <div>José de Anchieta</div>
+            </div>
+            <a href="#">Volver</a>
+
+            <!--Define el alineamiento en el axis principal. Distribuye el espacio extra dispobible-->
+            <h2 id="Justify-Content">Justify-Content</h2>
+            <div class="contenedor item7">
+                <div>José de Anchieta</div>
+                <div>San Ignacio</div>
+                <div>Jesuitas</div>
+                <div>Fundación Loyola</div>
+                <div>José de Anchieta</div>
+            </div>
+            <a href="#">Volver</a>
+
+            <!--Específica el alineamiento de un item en particular-->
+            <h2 id="Align-Self">Align-Self</h2>
+            <div class="contenedor">
+                <div class="item8">Pedro Fabro</div>
+                <div>Gaspar Astete</div>
+                <div>Lorenzo Ricci</div>
+                <div>Francisco de Borja</div>
+            </div>
+            <a href="#">Volver</a>
+
+            <!--Específica el alineamiento de los items -->
+            <h2 id="Align-Items">Align-Items</h2>
+            <div class="contenedor tam">
+                <div>Jesuitas</div>
+                <div>Fundación Loyola</div>
+                <div>José de Anchieta</div>
+                <div>San Ignacio</div>
+                <div>Jesuitas</div>
+           
+            </div>
+            <a href="#">Volver</a>
+
+            <!--Específica el alineamiento del contenido-->
+            <h2 id="Align-Content">Align-Content</h2>
+            <div class="contenedor item9">
+                <div>Jesuitas</div>
+                <div>Fundación Loyola</div>
+                <div>José de Anchieta</div>
+                <div>San Ignacio</div>
+                <div>Jesuitas</div>
+                <div>Jesuitas</div>
+                <div>Fundación Loyola</div>
+                <div>José de Anchieta</div>
+                <div>San Ignacio</div>
+                <div>Jesuitas</div>
+                <div>Jesuitas</div>
+                <div>Fundación Loyola</div>
+                <div>José de Anchieta</div>
+                <div>San Ignacio</div>
+                <div>Jesuitas</div>
+            </div>
+            <a href="#">Volver</a>
+
+            <!--Distribuye el espacio entre flex items -->
+            <h2 id="Gap">Gap</h2>
+            <div class="contenedor item10">
+                <div>Jesuitas</div>
+                <div>Fundación Loyola</div>
+                <div>José de Anchieta</div>
+                <div>San Ignacio</div>
+                <div>Jesuitas</div>
+            </div>
+            <a href="#">Volver</a>
+        </main>
+    </body>
+</html>
